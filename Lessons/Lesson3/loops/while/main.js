@@ -12,6 +12,7 @@ let users = [
     {name: 'olya', age: 31, status: false},
     {name: 'max', age: 31, status: true}
 ];
+
 let i = 0;
 while (i < users.length) {
     let user = users[i];

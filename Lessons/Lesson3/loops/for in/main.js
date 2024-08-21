@@ -26,11 +26,5 @@ let users = [
     {name: 'max', age: 31, status: true}
 ];
 
-for (const user of users) {
 
-    for (const fieldName in user) {
-        console.log(fieldName, user[fieldName]);
 
-    }
-    console.log('');
-}
